@@ -1,0 +1,21 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #0D6EFD;
+}
+
+.cabecalho p {
+    color: #0D6EFD;
+    font-size: 26px;
+    font-family: 'Zen Dots';
+    text-align: center;
+}
+
+.cabecalho p span {
+    color: #FD9843;
+}
+
