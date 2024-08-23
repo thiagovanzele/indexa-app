@@ -1,0 +1,27 @@
+.contato ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.contato ul li {
+    list-style: none;
+}
+
+.contato .nome {
+    font-weight: 700;
+}
+
+.contato .telefone {
+    font-weight: 400;
+}
+
+.acoes button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
