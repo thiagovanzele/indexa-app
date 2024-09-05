@@ -8,6 +8,12 @@ header .cabecalho-link {
     align-self: center;
     margin-bottom: 56px;
   }
+
+  header .cabecalho-link button {
+    border: none;
+    cursor: pointer;
+  }
+
   
   header .cabecalho-link div {
     display: flex;
@@ -26,6 +32,10 @@ header .cabecalho-link {
     line-height: 27px;
     letter-spacing: 0px;
     color: #0D6EFD;
+  }
+  
+  header .cabecalho-link a:hover {
+    color: #4e95ff;
   }
   
   header .cabecalho-contato {

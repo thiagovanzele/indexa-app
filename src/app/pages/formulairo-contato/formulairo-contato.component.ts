@@ -3,6 +3,8 @@ import { ContainerComponent } from "../../componentes/container/container.compon
 import { SeparadorComponent } from "../../componentes/separador/separador.component";
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
+import { Router } from 'express';
 
 @Component({
   selector: 'app-formulairo-contato',
@@ -12,7 +14,8 @@ import { CommonModule } from '@angular/common';
     ContainerComponent, 
     SeparadorComponent,
     ReactiveFormsModule,
-    CommonModule
+    CommonModule,
+    RouterLink
   ],
 
   templateUrl: './formulairo-contato.component.html',
@@ -35,5 +38,6 @@ export class FormulairoContatoComponent {
 
   salvarContato() {
     console.log(this.contatoForm.value)
+    RouterLink
   }
 }
